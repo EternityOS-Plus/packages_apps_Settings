@@ -25,4 +25,8 @@
     <string name="combined_status_bar_signal_icons">Combined signal icons</string>
     <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in status bar. Needs SystemUI restart or reboot</string>
 
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="lockscreen_tweaks_category_title">What to do</string>
+    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+
 </resources>
