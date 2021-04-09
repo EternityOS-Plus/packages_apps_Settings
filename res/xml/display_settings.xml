@@ -51,6 +51,7 @@
         <com.android.settings.display.darkmode.DarkModePreference
             android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
             android:key="dark_ui_mode"
+            android:icon="@drawable/ic_dark_theme" 
             android:title="@string/dark_ui_mode"
             android:widgetLayout="@null"
             settings:controller="com.android.settings.display.DarkUIPreferenceController"
@@ -69,6 +70,12 @@
             android:key="display_settings_screen_zoom"
             android:title="@string/screen_zoom_title"
             settings:keywords="@string/keywords_display_size" />
+            settings:searchable="false"/>
+
+        <com.android.settings.display.DensityPreference
+            android:key="density"
+            android:icon="@drawable/ic_smallest_width" 
+            android:title="@string/developer_smallest_width" />
 
     </PreferenceCategory>
 
@@ -141,6 +148,9 @@
             android:fragment="com.android.settings.dream.DreamSettings"
             android:key="screensaver"
             android:title="@string/screensaver_settings_title" />
+            android:icon="@drawable/ic_screensaver"
+            android:title="@string/screensaver_settings_title"
+            android:fragment="com.android.settings.dream.DreamSettings"/>
 
         <SwitchPreference
             android:key="camera_gesture"
