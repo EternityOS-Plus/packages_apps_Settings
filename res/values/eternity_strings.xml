@@ -17,4 +17,7 @@
 
     <!-- Eternity version preference -->
     <string name="Eternity_version">"Eternity version"</string>
+
+    <!-- About Phone screen, Device Codename -->
+    <string name="about_device_name">Device</string>
 </resources>
