@@ -28,7 +28,7 @@ import com.android.settings.core.BasePreferenceController;
 public class EternityVersionPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "EternityVersionPreferenceController";
-    private static final String ROM_PROPERTY = "org.eternity.version";
+    private static final String ROM_PROPERTY = "org.eternityos.version";
 
 public EternityVersionPreferenceController(Context context, String key) {
         super(context, key);
