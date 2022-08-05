@@ -20,4 +20,9 @@
 
     <!-- About Phone screen, Device Codename -->
     <string name="about_device_name">Device</string>
+
+    <!--Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons">Combined signal icons</string>
+    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in status bar. Needs SystemUI restart or reboot</string>
+
 </resources>
