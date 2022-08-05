@@ -190,6 +190,18 @@
             android:key="vr_display_pref"
             android:title="@string/display_vr_pref_title" />
 
+        <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+          android:key="secure_lockscreen_qs_disabled"
+          android:title="@string/disable_qs_title"
+          android:summary="@string/disable_qs_summary"
+          android:defaultValue="false" />
+
+        <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+          android:key="lockscreen_power_menu_disabled"
+          android:title="@string/lockscreen_power_menu_disabled_title"
+          android:summary="@string/lockscreen_power_menu_disabled_summary"
+          android:defaultValue="true" />
+
         <!-- Screen OFF FOD -->
         <com.android.settings.custom.preference.SecureSettingSwitchPreference
             android:key="screen_off_udfps_enabled"
