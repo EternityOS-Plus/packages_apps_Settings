@@ -20,4 +20,9 @@
 
     <!-- About Phone screen, Device Codename -->
     <string name="about_device_name">Device</string>
+
+   <!-- Top level EternitySettings --> 
+   <string name="eternity_settings_title">EternitySettings</string>
+   <string name="eternity_settings_summary">Customisation Hub</string>
+
 </resources>
